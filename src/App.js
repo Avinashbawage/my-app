@@ -1,11 +1,11 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Apps from "./CompA/Apps";
+import React from "react";
+import Restaurant from "./Restaurantwebsite/Restaurant";
+// import Basics from "./Thapa_Project/Basics";
 
 function App() {
   return (
     <div className="App">
-      <Apps />
+      <Restaurant />
     </div>
   );
 }
