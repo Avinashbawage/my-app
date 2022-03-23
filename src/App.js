@@ -1,11 +1,13 @@
 import React from "react";
-import Restaurant from "./Restaurantwebsite/Restaurant";
+// import Restaurant from "./Restaurantwebsite/Restaurant";
 // import Basics from "./Thapa_Project/Basics";
+import UseEffect from "./Hooks/UseEffect";
 
 function App() {
   return (
     <div className="App">
-      <Restaurant />
+      <UseEffect />
+      {/* <Restaurant /> */}
     </div>
   );
 }
