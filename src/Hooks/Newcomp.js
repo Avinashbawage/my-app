@@ -1,13 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
-const UseEffect = () => {
-    
+const Newcomp = () => {
   const [first, setfirst] = useState(0);
 
   useEffect(() => {
-   console.log()hii
-  }, [])
-  
+    document.title = `Chats(${first})`;
+  });
 
   return (
     <div>
@@ -23,4 +21,4 @@ const UseEffect = () => {
   );
 };
 
-export default UseEffect;
+export default Newcomp;

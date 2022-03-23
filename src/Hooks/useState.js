@@ -5,7 +5,7 @@ const UseState = () => {
 
   useEffect(() => {
     document.title = `You clicked ${count} times`;
-  }, []);
+  });
 
   return (
     <div>
