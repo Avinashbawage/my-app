@@ -3,11 +3,12 @@ import React from "react";
 // import Basics from "./Thapa_Project/Basics";
 // import Newcomp from "./Hooks/Newcomp";
 import Todo from "./todolist/todo";
+import Events from "./React Js Basics/Events";
 
 function App() {
   return (
     <div className="App">
-      <Todo />
+      <Events />
     </div>
   );
 }
